@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #101010;
+}
+
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.contacts{
+    padding: 10px 0px 0px;
+    display: none;
+}
+
+.contacts a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.aside{
+    float: left;
+    border-right:6px solid rgb(58, 57, 57);
+    width: 350px;
+    height: 100vh;
+    background-color:rgb(80, 79, 79);
+}
+
+.block_aside{
+    padding: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.block__contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact img{
+    padding: 20px;
+    width: 40px;
+}
+
+.item{
+    padding: 20px;
+}
+.item li{
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.item li:hover{
+    color: #fff;
+}
+.link{
+    color: #000;
+}
+
+.personal{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.block__person{
+    font-size: 28px;
+    padding: 20px 0px 0px 0px;
+}
+
+.block__person h2{
+    font-size: 40px;
+}
+.block__person p{
+    padding: 20px 0px 0px 0px;
+}
+
+.block__experience{
+    margin: 40px 10px 0px 10px;
+
+}
+
+.block__experience h2{
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+}
+.block__experience p{
+    font-size: 28px;
+    padding: 0px 0px 15px;
+}
+
+.block__extra{
+
+}
+.block__extra h2{
+    font-size: 40px;
+}
+.extra-list{
+    text-align: left;
+}
+
+.extra-list span{
+    display: block;
+    font-size: 28px;
+    padding: 10px 0px 0px 20px;
+}
+
+.extra-list span:before{
+    content: "-";
+}
+
+
+@media(max-width:740px){
+    .aside{
+        display: none;
+    }  
+
+    .block{
+        padding: 10px 0px 20px;
+    }
+
+    .block__extra{
+        padding: 0;
+        margin: 0;
+    }
+    .contacts{
+        display: block;
+    }
+
+    .block__person h2{
+        font-size: 26px;
+    }
+    .block__person p{
+        font-size: 24px;
+    }
+    
+    .block__experience h2{
+        font-size: 26px;
+    }
+    .block__experience p{
+        font-size: 24px;
+    }
+    
+    .block__extra h2{
+        font-size: 26px;
+    }
+    .block__extra span{
+        font-size: 24px;
+    }
+}
+
